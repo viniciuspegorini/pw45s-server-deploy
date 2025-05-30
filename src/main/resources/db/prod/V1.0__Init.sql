@@ -10,7 +10,7 @@ create table product (
                          name varchar(100) not null,
                          image_name varchar(100),
                          content_type varchar(100),
-                         price double not null,
+                         price decimal not null,
                          category_id bigint,
                          primary key (id)
 );
