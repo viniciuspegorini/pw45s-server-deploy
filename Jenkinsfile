@@ -9,7 +9,7 @@ pipeline {
         DB_JDBC_USER = "${POSTGRESQL_CRED_USR}"
         DB_JDBC_PASSWORD = "${POSTGRESQL_CRED_PSW}"
         SERVER_PORT=8080
-        DATABASE_URL="jdbc:postgresql://web:5432/pw45s"
+        DATABASE_URL="jdbc:postgresql://142.93.204.246:5432/pw45s"
         DATABASE_USERNAME="${POSTGRESQL_CRED_USR}"
         DATABASE_PASSWORD="${POSTGRESQL_CRED_PSW}"
 
