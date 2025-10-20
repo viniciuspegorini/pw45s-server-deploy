@@ -86,19 +86,6 @@
 			<artifactId>flyway-core</artifactId>
 		</dependency>
 
-		<!-- Monitoramento dos endpoints para o Admin -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-		</dependency>
-
-		<!-- Spring boot Admin Client -->
-		<dependency>
-			<groupId>de.codecentric</groupId>
-			<artifactId>spring-boot-admin-starter-client</artifactId>
-			<version>3.4.5</version>
-		</dependency>
-
 		<!-- Google Authentication -->
 		<dependency>
 			<groupId>com.google.api-client</groupId>
