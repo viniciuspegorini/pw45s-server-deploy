@@ -13,6 +13,6 @@ RUN sed -i 's/\r$//' mvnw
 RUN /bin/sh mvnw package -DskipTests
 
 # DELIVERY
-FROM openjdk:17
+FROM openjdk:17-ea-33-jdk-slim
 COPY --from=build /workspace/server/target/server-0.1.jar server.jar
 ENTRYPOINT ["java", "-jar", "server.jar"]
