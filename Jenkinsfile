@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         SPRING_PROFILES_ACTIVE="prod"
-        POSTGRESQL_CRED = credentials('postgres-id')
+        POSTGRESQL_CRED = credentials('postgres_id')
         CLIENT_URL="https://viniciuspegorini.br/#"
 
         DB_JDBC_USER = "${POSTGRESQL_CRED_USR}"
